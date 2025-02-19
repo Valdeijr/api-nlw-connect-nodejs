@@ -9,6 +9,10 @@ import {
 } from 'fastify-type-provider-zod'
 import { env } from '../env'
 import { AccessInviteLinkRoute } from './routes/AccessInviteLinkRoute'
+import { GetRankingRoute } from './routes/GetRankingRoute'
+import { GetSubscriberInviteClicksRoute } from './routes/GetSubscriberInviteClicksRoute'
+import { GetSubscriberInviteCountRoute } from './routes/GetSubscriberInviteCountRoute'
+import { GetSubscriberRankingPositionRoute } from './routes/GetSubscriberRankingPositionRoute'
 import { SubscriberEventRoute } from './routes/SubscriberEventRoute'
 
 const app = fastify()
@@ -24,7 +28,7 @@ app.register(fastifySwagger, {
   openapi: {
     info: {
       title: 'API NLW',
-      version: '0.1.1',
+      version: '0.1.2',
     },
   },
   transform: jsonSchemaTransform,
@@ -36,6 +40,10 @@ app.register(fastifySwaggerUi, {
 
 app.register(SubscriberEventRoute)
 app.register(AccessInviteLinkRoute)
+app.register(GetSubscriberInviteClicksRoute)
+app.register(GetSubscriberInviteCountRoute)
+app.register(GetSubscriberRankingPositionRoute)
+app.register(GetRankingRoute)
 
 app.listen({ port: env.PORT }).then(() => {
   console.log('Server runnig')
