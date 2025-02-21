@@ -80,12 +80,10 @@ As seções disponíveis na documentação são:
 - **Referral Data**
 - **Ranking**
 
-## Certificado de Conclusão
+## Certificado de Conclusão e Considerações Finais
 
-Este projeto foi desenvolvido durante um curso de **Desenvolvimento Back-end com Node.js**. O certificado de conclusão pode ser acessado no seguinte link:
+Este projeto foi desenvolvido durante um curso da [Rocketseat](https://app.rocketseat.com.br) de **Desenvolvimento Back-end com Node.js**. O certificado de conclusão pode ser acessado no seguinte link:
 
 [Certificado de Conclusão](https://app.rocketseat.com.br/certificates/00d67c6b-d65f-40bf-b281-09109261b926)
 
-## Considerações Finais
-
-Este projeto foi desenvolvido durante um curso de **Desenvolvimento Back-end com Node.js**. Ele abrange conceitos de API REST, banco de dados, validação de dados e armazenamento em cache, buscando aplicar boas práticas no desenvolvimento.
+Ele abrange conceitos de API REST, banco de dados, validação de dados e armazenamento em cache, buscando aplicar boas práticas no desenvolvimento.
