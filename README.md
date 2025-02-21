@@ -1,4 +1,4 @@
-# API de Cadastro de Usuários com Ranking de Conversões
+# API de Cadastro de Usuários, Link de indicação e Ranking
 
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
