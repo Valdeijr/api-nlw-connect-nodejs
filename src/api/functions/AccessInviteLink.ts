@@ -8,5 +8,4 @@ export async function AccessInviteLink({
   subscriberId,
 }: AccessInviteLinkParams) {
   await redis.hincrby('referral:access-count', subscriberId, 1)
-  console.log('contei o click')
 }

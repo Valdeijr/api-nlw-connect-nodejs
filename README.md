@@ -22,7 +22,6 @@ Este projeto é uma API desenvolvida em Node.js com TypeScript utilizando o fram
 Para rodar o projeto localmente, siga os passos abaixo:
 
 1. Clone o repositório:
-
    ```bash
    git clone https://github.com/Valdeijr/api-nlw-connect-nodejs
    cd api-nlw-connect-nodejs
@@ -35,7 +34,12 @@ Para rodar o projeto localmente, siga os passos abaixo:
    ```bash
    docker-compose up -d
 
-4. Execute o projeto em modo de desenvolvimento:
+4. Execute os comandos para migrar e gerar o db:
+   ```bash
+   pnpm db-migrate
+   pnpm db-generate
+
+5. Execute o projeto em modo de desenvolvimento:
    ```bash
    pnpm run dev
 

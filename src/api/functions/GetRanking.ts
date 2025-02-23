@@ -11,12 +11,12 @@ export async function GetRanking() {
     subsAndScore[ranking[i]] = Number.parseInt(ranking[i + 1])
   }
 
-  const subcribers = await db
+  const subscribers = await db
     .select()
     .from(subscriber)
     .where(inArray(subscriber.id, Object.keys(subsAndScore)))
 
-  const rankingWithScore = subcribers
+  const rankingWithScore = subscribers
     .map(sub => {
       return {
         id: sub.id,

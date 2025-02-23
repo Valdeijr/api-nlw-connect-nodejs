@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch --env-file=.env src/api/server.ts",
+    "dev": "tsx watch --env-file .env src/api/server.ts",
     "build": "tsup-node",
-    "build-run": "node --env-file=.env dist/api/server.mjs"
+    "db-migrate": "drizzle-kit migrate",
+    "db-generate": "drizzle-kit generate",
+    "build-run": "--env-file .env dist/api/server.mjs"
   },
   "keywords": [],
   "author": "",
